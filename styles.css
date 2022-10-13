@@ -1,0 +1,78 @@
+/* IMAGES */
+
+
+
+
+
+/* BASE STYLES
+---------------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14pt;
+    font-family: sans-serif;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d1d;
+    color: #eaeaea;
+}
+
+figure {
+    margin: 0;
+}
+
+/* Images
+-----------------------------------------------*/
+img {
+    max-width: 100%;
+}
+
+/* TYPOGRAPHY
+---------------------------------------------- */
+
+h1 {
+    font-family: 'Imperial Script', cursive;
+    font-size: 66pt;
+    padding-left: 24px;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* Header
+---------------------------------------------- */
+header {
+    min-height: 100vh;
+    background-image:url(images/lake-sunset.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    align-items: end;
+    justify-items: start;
+}
+
+/* Grid
+-----------------------------------------------*/
+.gallery {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    padding: 16px;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.full-width {
+    grid-column: 1 / -1;
+}
+
+
+
+
